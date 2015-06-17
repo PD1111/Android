@@ -1,0 +1,3 @@
+1.This app requires the user to select tile accroding to the correct composition rule,invalid input detection will be implemented in the future(once an image button is clicked,only the button right next to it would become clickable and all the other buttons will be disabled.
+2.Once a user selects a specific tile, it will show up automatically in the top image view list
+3.It can only display the wining score now, however, the function of displaying all the unique wining combinations consists of the 14 input tiles will be implemented in the     future 
