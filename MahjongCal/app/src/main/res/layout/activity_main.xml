@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="top|bottom"
+    android:background="#ff484848">
+
+    <Space
+        android:layout_width="20px"
+        android:layout_height="50px" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView" >
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="45dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="45dp"
+                    android:id="@+id/imageView1"
+                    android:layout_gravity="right"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/idefault"/>
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="20px" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/idefault"/>
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="20px" />
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/idefault"/>
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="20px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/idefault" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView11"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView12"
+                    android:src="@drawable/idefault"/>
+
+                <Space
+                    android:layout_width="20px"
+                    android:layout_height="20px" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView13"
+                    android:src="@drawable/idefault"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView14"
+                    android:src="@drawable/idefault"/>
+            </TableRow>
+        </HorizontalScrollView>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="50px" />
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="0番"
+                android:textColor="#ffffffff" />
+        </TableRow>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="140px" />
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:id="@+id/playerInteractive"
+        android:focusableInTouchMode="false"
+        android:layout_gravity="bottom|right">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+
+                android:text="開始"
+                android:textColor="#000000"
+                android:textSize="13sp"
+
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5" />
+
+
+            <Space
+                android:layout_width="55px"
+                android:layout_height="20px" />
+
+            <Button
+                android:id="@+id/button2"
+
+                android:text="再調達"
+                android:textColor="#000000"
+                android:textSize="13sp"
+
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/jifun">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/zifeng_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="自風"
+                    android:id="@+id/textView2"
+                    android:textColor="#ffffffff"
+                    android:textStyle="normal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:checkedButton="@+id/radioButton1"
+                    android:id="@+id/r_zifeng">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="东"
+                        android:id="@+id/radioButton1"
+                        android:textColor="#ffffffff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="南"
+                        android:id="@+id/radioButton2"
+                        android:textColor="#ffffffff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="西"
+                        android:id="@+id/radioButton3"
+                        android:textColor="#ffffffff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="北"
+                        android:id="@+id/radioButton4"
+                        android:textColor="#ffffffff" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/soufun">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/changfeng_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="场風"
+                    android:id="@+id/textView3"
+                    android:textColor="#ffffffff"
+                    android:textStyle="normal"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="5dp" />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/r_changfeng"
+                    android:checkedButton="@+id/radioButton5">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="东"
+                        android:id="@+id/radioButton5"
+                        android:textColor="#ffffffff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="南"
+                        android:id="@+id/radioButton6"
+                        android:textColor="#ffffffff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="西"
+                        android:id="@+id/radioButton7"
+                        android:textColor="#ffffffff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="北"
+                        android:id="@+id/radioButton8"
+                        android:textColor="#ffffffff" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="10px" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="ドラ"
+                android:id="@+id/textView4"
+                android:paddingLeft="15dp"
+                android:textColor="#ffffffff" />
+
+            <Space
+                android:layout_width="45px"
+                android:layout_height="20px" />
+
+            <Spinner
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px" />
+
+            <CheckBox
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="槍槓"
+                android:id="@+id/checkBox1"
+                android:textColor="#ffffffff" />
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="立直"
+                android:id="@+id/checkBox2"
+                android:textColor="#ffffffff"
+                android:checked="false" />
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="河底撈魚"
+                android:id="@+id/checkBox3"
+                android:checked="false"
+                android:textColor="#ffffffff" />
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox4"
+                android:text="门清"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="20px"
+                android:layout_height="20px" />
+
+            <CheckBox
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="自摸"
+                android:id="@+id/checkBox5"
+                android:textColor="#ffffffff" />
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox6"
+                android:text="嶺上開花"
+                android:textColor="#ffffffff" />
+
+            <CheckBox
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/checkBox7"
+                android:text="海底摸月"
+                android:textColor="#ffffffff" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="一发"
+                android:id="@+id/checkBox8"
+                android:textColor="#ffffffff" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="351dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/mm1"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m1"/>
+
+                    <ImageButton
+                        android:id="@+id/mm2"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m2"/>
+
+                    <ImageButton
+                        android:id="@+id/mm3"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m3" />
+
+                    <ImageButton
+                        android:id="@+id/mm4"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m4" />
+
+                    <ImageButton
+                        android:id="@+id/mm5"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m5" />
+
+                    <ImageButton
+                        android:id="@+id/mm6"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m6" />
+
+                    <ImageButton
+                        android:id="@+id/mm7"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m7" />
+                    <ImageButton
+                        android:id="@+id/mm8"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m8" />
+                    <ImageButton
+                        android:id="@+id/mm9"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m9" />
+                    <ImageButton
+                        android:id="@+id/mm11"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m11" />
+                    <ImageButton
+                        android:id="@+id/mm12"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m12" />
+                    <ImageButton
+                        android:id="@+id/mm13"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m13" />
+                    <ImageButton
+                        android:id="@+id/mm14"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m14" />
+
+                    <ImageButton
+                        android:id="@+id/mm15"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m15" />
+                    <ImageButton
+                        android:id="@+id/mm16"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m16" />
+                    <ImageButton
+                        android:id="@+id/mm17"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m17" />
+                    <ImageButton
+                        android:id="@+id/mm18"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m18" />
+                    <ImageButton
+                        android:id="@+id/mm19"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m19" />
+                    <ImageButton
+                        android:id="@+id/mm21"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m21" />
+                    <ImageButton
+                        android:id="@+id/mm22"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m22" />
+                    <ImageButton
+                        android:id="@+id/mm23"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m23" />
+                    <ImageButton
+                        android:id="@+id/mm24"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m24" />
+                    <ImageButton
+                        android:id="@+id/mm25"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m25" />
+                    <ImageButton
+                        android:id="@+id/mm26"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m26" />
+                    <ImageButton
+                        android:id="@+id/mm27"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m27" />
+                    <ImageButton
+                        android:id="@+id/mm28"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m28" />
+                    <ImageButton
+                        android:id="@+id/mm29"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m29" />
+                    <ImageButton
+                        android:id="@+id/mm31"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m31" />
+                    <ImageButton
+                        android:id="@+id/mm32"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m32" />
+                    <ImageButton
+                        android:id="@+id/mm33"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m33" />
+                    <ImageButton
+                        android:id="@+id/mm34"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m34" />
+                    <ImageButton
+                        android:id="@+id/mm35"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m35" />
+                    <ImageButton
+                        android:id="@+id/mm36"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m36" />
+                    <ImageButton
+                        android:id="@+id/mm37"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/m37" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        <Space
+            android:layout_width="20px"
+            android:layout_height="20px" />
+
+    </LinearLayout>
+
+</LinearLayout>
